@@ -36,4 +36,9 @@ public class FibonacciTest {
 		Fibonacci fibo = new Fibonacci();
 		assertEquals(4, fibo.getEvenTermsFiboValuesSum(4));
 	}
+	@Test
+	public void testEvenValueTermUntil_10() {
+		Fibonacci fibo = new Fibonacci();
+		assertEquals(88, fibo.getEvenTermsFiboValuesSum(10));
+	}
 }
