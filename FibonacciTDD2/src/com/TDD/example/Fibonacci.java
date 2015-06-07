@@ -13,6 +13,8 @@ public class Fibonacci {
 	public static int getFiboValue(int term) {
 		if (term == 0)
 			return 0;
+		else if (term == 1)
+			return 1;
 		return 0;
 	}
 }
